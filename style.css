@@ -246,6 +246,13 @@ button:hover {
 }
 
 
+@media (max-width: 1038px) {
+   .left-side {
+     border-bottom-left-radius: 3rem;
+      border-bottom-right-radius: 3rem; 
+      position: relative; z-index: 2;
+   }
+
 
 
 @media (max-width: 768px) {
