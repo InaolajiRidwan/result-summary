@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 3rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="left-side">
+        <p class="left-side__result">Your Result</p>
+        <div class="left-side__result-border">
+          <div class="left-side__result-border-cont">
+            <h1>76</h1>
+            <p>of 100</p>
+          </div>
+        </div>
+        <div class="left-side-footer">
+          <h2>Great</h2>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="right-side">
+        <p class="right-side__header">Summary</p>
+        <div class="test-section">
+          <div class="test__reaction">
+            <div class="test__reaction-cont__reaction">
+              <img src="assets/images/icon-reaction.svg" alt="reaction" />
+              <p>Reaction</p>
+            </div>
+            <div>
+              <p><b>80</b> / 100</p>
+            </div>
+          </div>
+
+          <div class="test__memory">
+            <div class="test__reaction-cont__memory">
+              <img src="assets/images/icon-memory.svg" alt="reaction" />
+              <p>Memory </p>
+            </div>
+            <div>
+              <p><b>92</b> / 100 </p>
+            </div>
+          </div>
+
+
+          <div class="test__verbal">
+            <div class="test__reaction-cont__verbal" >
+              <img src="assets/images/icon-verbal.svg" alt="Verbal" />
+              <p>Verbal </p>
+            </div>
+            <div>
+              <p><b>61 </b>/ 100</p>
+            </div>
+          </div>
+
+
+           <div class="test__visual">
+            <div class="test__reaction-cont__visual" >
+              <img src="assets/images/icon-visual.svg" alt="visual" />
+              <p>Visual </p>
+            </div>
+            <div>
+              <p><b>73</b> / 100</p>
+            </div>
+          </div>
+
+        </div>
+
+        <button>Continue</button>
+      </div>
+    </section>
+
+        
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#"><b>Inaolaji A. Ridwan</b></a>.
+    </div>
+  </body>
+</html>
